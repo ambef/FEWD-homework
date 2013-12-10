@@ -1,0 +1,179 @@
+/* 
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+
+Image from http://www.flickr.com/photos/mikeschinkel/2733534094/
+
+You will need to Google:
+
+* background-image
+* ```<del>``` ```<ins>```
+* overflow
+
+Fonts Used: 
+* font-family: 'Source Sans Pro', sans-serif;
+* font-family: 'Merriweather', serif;
+* font-family: 'Oswald', sans-serif;
+*/
+
+
+/******************************************
+/* SETUP                   
+/*******************************************/
+
+/* Box Model Hack /*
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     /* -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     /* box-sizing: border-box; /* IE */
+/* } /*
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right; 
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left; 
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/* additional */
+
+header {
+     background:black;
+}
+
+h1 {
+     color: yellow;
+     margin: 0 0 0 50px;
+     padding: 25px 0px;
+     font-size: 2em;
+     font-family: 'Merriweather', serif;
+     float: left;
+}
+
+nav {
+     float:right;
+     font-family: 'Oswald', sans-serif;
+     margin: 0 50px 0 0;
+     padding: 25px 0px;
+}
+
+.b {
+     font-weight: bold;
+}
+
+ins {
+     text-decoration: none;
+     border-bottom: 2px solid yellow;
+}
+
+header li {
+     color: white;
+     padding: 15px 15px;
+     font-size: 1.2em;
+     float: right;
+}
+
+.tagline {
+     text-align: center;
+     padding: 20px 20px;
+     background: #C6C6C6;
+     border-top: 4px solid yellow;
+     font-family: 'Merriweather', sans-serif;
+     font-style: italic;
+     font-size: 1.25em;
+
+}
+
+.coffeeshop {
+     background-image: url(../images/coworking.jpg);
+     width:100%;
+     height: 100%;
+}
+
+.whitebox {
+     margin: 30px 30px;
+     padding: 30px 30px;
+     float: right;
+     width: 45%;
+     background: white;
+     opacity:0.8;
+     box-shadow: 0px 5px 5px #888888;
+}
+
+section {
+     font-family: 'Merriweather', serif;
+}
+
+.column {
+     width: 29%;
+     float: left;
+     padding: 0 2%;
+}
+
+.section p {
+     font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.button {
+     text-align: center;
+     padding: 15px 0;
+     margin: 15px 0;
+     background: #C6C6C6;
+     box-shadow: 0px 5px 0px gray;
+     border-radius:5px;
+     font-weight: bold;
+     font-family: 'Oswald', sans-serif;
+     font-size: 1.4em;
+}
+
+.yellow {
+     background: yellow;
+}
+
+.border {
+     border-left: 1px solid #C6C6C6;
+     border-right: 1px solid #C6C6C6;
+}
+
+h4, h3 {
+     font-size: 1.4em;
+     padding: 10px 0px;
+     font-weight: bold;
+}
+
+p {
+     line-height: 1.5em;
+     font-size: 1.1em;
+}
+
+.column-container {
+     margin: 4% 0;
+}
+
+footer {
+     padding: 2% 2%;
+     background: black;
+     color: white;
+     font-family: 'Source Sans Pro', sans-serif;
+     font-size: 1.2em;
+}
